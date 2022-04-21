@@ -4,4 +4,4 @@ def greeting():
 greeting()
 
 def something_to_change():
-    print('WWWergegegWW')
+    print('WWWWW')
