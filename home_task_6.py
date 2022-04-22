@@ -1,9 +1,10 @@
 def find_number(lst: list) -> list:
     n = len(lst)
+    temp = set(lst)
+    temp = list(temp)
     result = []
-    for i in range(n):
-        i = lst.count(i)
-        result.append(i)
+    for i in range(len(temp)):
+        result.append(lst.count(temp[i]))
     return result
 
 
@@ -15,8 +16,12 @@ def main():
         temp = int(input())
         info.append(temp)
     result = find_number(info)
+    info = set(info)
+    info = list(info)
+    k = len(result)
     for i in range(len(result)):
-        print(result[i], end = ' ')
-
-
+        print(f'Количество повторений числа {info[i]}: {result[i]}')
+        print()
+    
+   
 main()
