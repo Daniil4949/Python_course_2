@@ -12,7 +12,7 @@ def main():
     n = int(input('Введите количество элементов списка: '))
     info = []
     for i in range(n):
-        print(f'Введите {i+1} элемент списка:\n ')
+        print(f'Введите {i+1} элемент списка:')
         temp = int(input())
         info.append(temp)
     result = find_number(info)
