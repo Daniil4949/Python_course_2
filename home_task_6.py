@@ -24,5 +24,5 @@ def main():
         print()
 
 
-   
+main() 
 
