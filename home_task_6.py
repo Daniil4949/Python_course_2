@@ -22,6 +22,7 @@ def main():
     for i in range(len(result)):
         print(f'Количество повторений числа {info[i]}: {result[i]}')
         print()
-    
+
+
    
-main()
+
